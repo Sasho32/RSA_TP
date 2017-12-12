@@ -1,0 +1,9 @@
+require '../lib/RSA.rb'
+
+describe RSA do
+  describe "#initialize" do
+      it "failing 0 case" do
+        expect(RSA.new.initialize()).to eq("10")
+      end
+	end
+end
